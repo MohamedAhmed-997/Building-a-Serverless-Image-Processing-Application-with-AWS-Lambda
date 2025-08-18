@@ -441,7 +441,7 @@ def lambda_handler(event, context):
 import json
 import boto3
 
-SFN_ARN = "arn:aws:states:us-east-2:578034689950:stateMachine:ImagePipeline-Processor"
+SFN_ARN = "arn:aws:states:<REGION>:<ACCOUNT_ID>:stateMachine:ImagePipeline-Processor"
 sfn = boto3.client("stepfunctions")
 
 def lambda_handler(event, context):

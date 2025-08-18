@@ -35,7 +35,7 @@ This project provides a step-by-step guide to building a **serverless image proc
   - [9.5 Verify DynamoDB item](#95-verify-dynamodb-item)
 * [🧑‍💻 Author](#-author)
 * [📜 License](#-license)
-* [ Project (Video)](#project-implementation-video)
+* [ Project Review (Video)](#project-implementation-video)
 
 ---
 

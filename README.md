@@ -512,7 +512,7 @@ Now wire the **source** bucket to invoke the **trigger** Lambda.
 3. Download/preview to confirm resizing.
 
 ## 9.5 Verify DynamoDB item
-
+The current implementation only stores the image key and status.
 1. Console → **DynamoDB** → **Tables** → `ImagePipeline-Metadata`.
 2. **Explore table items** → You should see an item with:
     - `imageKey` = `resized/<your-original-key>`

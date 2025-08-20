@@ -135,16 +135,14 @@ This project provides a step-by-step guide to building a **serverless image proc
       ]
     },
     {
-			"Sid": "SourceBucketList",
-			"Effect": "Allow",
-			"Action": [
-				"s3:ListBucket"
-			],
-			"Resource": [
-				"arn:aws:s3:::bucket-source-manara/*",
-				"arn:aws:s3:::bucket-dest-manara/*"
-			]
-		},
+      "Sid": "SourceBucketList",
+      "Effect": "Allow",
+      "Action": ["s3:ListBucket"],
+      "Resource": [
+			"arn:aws:s3:::bucket-source-manara/*",
+			"arn:aws:s3:::bucket-dest-manara/*"
+      ]
+	},
     {
       "Sid": "DDBWrite",
       "Effect": "Allow",
